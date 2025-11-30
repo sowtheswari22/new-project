@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: self-hosted   # Your EC2 runner
+    runs-on: self-hosted   
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
